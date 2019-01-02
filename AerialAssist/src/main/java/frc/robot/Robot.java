@@ -45,7 +45,7 @@ public class Robot extends IterativeRobot {
 
     //Xbox Controller
     XboxController driveStick = new XboxController(0);
-	XboxController operatorStick = new XboxController(1);
+    XboxController operatorStick = new XboxController(1);
 	
     @Override
     public void teleopInit() {
